@@ -1,0 +1,10 @@
+﻿{
+  "name": "angular-example",
+  "version": "0.0.0",
+  "description": "angular-example",
+  "main": "server.js",
+  "author": {
+    "name": "kingdee",
+    "email": ""
+  }
+}

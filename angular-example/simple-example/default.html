@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>angularjs例子</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body ng-app="TestApp">
+    <div class="container">
+        <header>
+            <h3>angularjs实例讲解</h3>
+        </header>
+        <div class="row">
+            <div class="col-md-2">
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a ui-sref="introduce">angularjs 简介</a></li>
+                    <li><a ui-sref="bind">angularjs 单双向绑定</a></li>
+                    <li><a ui-sref="directive">angularjs 指令</a></li>
+                    <li><a ui-sref="service">angularjs 服务</a></li>
+                    <li><a ui-sref="ajax">angularjs ajax</a></li>
+                    <li><a ui-sref="router">angularjs 路由</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8 content" ui-view>
+            </div>
+        </div>
+    </div>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-route.js"></script>
+    <script src="js/main.js"></script>
+    <script src="modules/introduce/intruduceCtrl.js"></script>
+    <script src="modules/directive/directiveCtrl.js"></script>
+    <script src="modules/bind/bindCtrl.js"></script>
+</body>
+</html>
